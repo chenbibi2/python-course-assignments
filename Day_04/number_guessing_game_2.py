@@ -4,7 +4,7 @@ print("I am thinking of a number between 1 and 20. Can you guess what it is?")
 print("Type 'x' to quit the game.")
 while True:
     guess = input("Your guess is: ")
-    if guess.lower() == "x":
+    if guess == "x":
         print("You quit the game.")
         break
     else:
