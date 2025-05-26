@@ -5,6 +5,7 @@ print("I am thinking of a number between 1 and 20. Can you guess what it is?")
 print("Type 'x' to quit the game.")
 print("Type 's' to know the number.")
 print("Type 'd' to enter debug mode")
+guess =0
 while True:
     guess = input("Your guess is: ")
     
