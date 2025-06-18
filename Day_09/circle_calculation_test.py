@@ -3,7 +3,7 @@ import math
 
 class TestMath(unittest.TestCase):
     def test_math(self):
-        self.assertEqual(mymath.add(2, 2), 4)
+        self.assertEqual(circle_calculation.calculate_area(2), 12.56637061)
 
     def test_more_math(self):
-        self.assertEqual(mymath.add(3, 3), 6)
+        self.assertEqual(circle_calculation.(3, 3), 6)
